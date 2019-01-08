@@ -1,10 +1,10 @@
-# Wizeline test#
+# Wizeline test
 
 Using Ruby/Watir to implement project
 
 Also build project base on PageObject Pattern
 
-###Project Structure ###
+## Project Structure 
 ```sh
 
 ├── Gemfile                           #all gem that use to implement auto test
@@ -23,7 +23,7 @@ Also build project base on PageObject Pattern
         └── login_spec.rb             #the spec to test login function
 ```
 
-###Initialize ###
+## Initialize 
 I assume that laptop already has Chrome browser and chromedriver in PATH
 ```sh
 update ruby
@@ -31,13 +31,13 @@ pull the project to local machine
 cd pulled_project_folder
 ```
 
-###Install Environment ###
+## Install Environment 
 ```sh
 gem install bundler
 bundle install
 ```
 
-###Run test ###
+## Run test 
 ```sh
 rake test_app_wizeline
  ```
