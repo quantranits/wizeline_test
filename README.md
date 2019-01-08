@@ -1,26 +1,26 @@
-# #
+# Wizeline test#
 
 Using Ruby/Watir to implement project
 
 Also build project base on PageObject Pattern
 
-###Project Structure
-```clickhouse
+###Project Structure ###
+```sh
 
-├── Gemfile #all gem that use to implement auto test
+├── Gemfile                           #all gem that use to implement auto test
 ├── README.md
-├── Rakefile # Rake task to run test
-├── lib #store all page, module
+├── Rakefile                          # Rake task to run test
+├── lib                               #store all page, module
 │   └── pages
-│       ├── add_new_note_page.rb # Add new note page
-│       ├── home_page.rb #Home page
-│       ├── login_page.rb #Login page
-│       └── my_notes_page.rb
+│       ├── add_new_note_page.rb      # Add new note page
+│       ├── home_page.rb              #Home page
+│       ├── login_page.rb             #Login page
+│       └── my_notes_page.rb          #My notes page
 └── spec
-    ├── spec_helper.rb
+    ├── spec_helper.rb                #initialize testing environment before and after test run
     └── test_app
-        ├── add_note_spec.rb
-        └── login_spec.rb
+        ├── add_note_spec.rb          #the spec to test add new note
+        └── login_spec.rb             #the spec to test login function
 ```
 
 ###Initialize ###
